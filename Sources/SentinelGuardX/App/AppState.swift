@@ -60,6 +60,10 @@ final class AppState {
     var fileMonitor = FileMonitor()
     var scanScheduler = ScanScheduler()
     var scanHistory = ScanHistory()
+    
+    // Phase 3 Engines
+    var securityAuditor = SecurityAuditor()
+    var usbMonitor = USBDeviceMonitor()
 
     init() {
         // Wire up cross-references

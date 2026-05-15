@@ -16,8 +16,8 @@ struct DashboardView: View {
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
                     systemHealthCard
                     liveActivityCard
+                    securityPostureCard
                     recentThreatsCard
-                    cleanerStatusCard
                 }
             }
             .padding(28)
@@ -251,48 +251,70 @@ struct DashboardView: View {
         }
     }
 
-    // MARK: - Cleaner Status Card
-    private var cleanerStatusCard: some View {
+    // MARK: - Security Posture Card
+    private var securityPostureCard: some View {
         GlassmorphicCard {
             VStack(alignment: .leading, spacing: 16) {
                 HStack {
-                    Image(systemName: "sparkles")
-                        .foregroundStyle(AppTheme.purple)
-                    Text("Cleaner Status")
+                    Image(systemName: "lock.shield.fill")
+                        .foregroundStyle(AppTheme.cyan)
+                    Text("Security Posture")
                         .font(.system(size: 16, weight: .semibold))
                         .foregroundStyle(AppTheme.textPrimary)
                     Spacer()
+                    
+                    Text("\(appState.securityAuditor.securityScore)%")
+                        .font(.system(size: 16, weight: .bold))
+                        .foregroundStyle(scoreColor(appState.securityAuditor.securityScore))
                 }
 
                 VStack(spacing: 12) {
-                    cleanerRow(icon: "archivebox.fill", label: "System Caches", value: "Analyze", color: AppTheme.cyan)
-                    cleanerRow(icon: "doc.text.fill", label: "Log Files", value: "Analyze", color: AppTheme.purple)
-                    cleanerRow(icon: "globe", label: "Browser Data", value: "Analyze", color: AppTheme.warning)
-                    cleanerRow(icon: "trash.fill", label: "Trash", value: "Analyze", color: AppTheme.danger)
+                    postureRow(
+                        icon: "key.fill",
+                        label: "FileVault Encryption",
+                        isEnabled: appState.securityAuditor.isFileVaultEnabled
+                    )
+                    postureRow(
+                        icon: "shield.righthalf.filled",
+                        label: "System Integrity (SIP)",
+                        isEnabled: appState.securityAuditor.isSIPEnabled
+                    )
+                    postureRow(
+                        icon: "network.badge.shield.half.filled",
+                        label: "System Firewall",
+                        isEnabled: appState.securityAuditor.isFirewallEnabled
+                    )
                 }
 
-                GlowButton(title: "Run Cleaner", icon: "sparkles", color: AppTheme.purple) {
-                    appState.selectedSection = .cleaner
+                GlowButton(title: "Refresh Audit", icon: "arrow.clockwise", color: AppTheme.cyan) {
+                    appState.securityAuditor.refreshAudit()
                 }
                 .frame(maxWidth: .infinity)
             }
         }
         .hoverScale()
     }
-
-    private func cleanerRow(icon: String, label: String, value: String, color: Color) -> some View {
+    
+    private func postureRow(icon: String, label: String, isEnabled: Bool) -> some View {
         HStack {
             Image(systemName: icon)
-                .font(.system(size: 12))
-                .foregroundStyle(color)
+                .font(.system(size: 14))
+                .foregroundStyle(isEnabled ? AppTheme.success : AppTheme.danger)
                 .frame(width: 24)
             Text(label)
                 .font(.system(size: 13))
                 .foregroundStyle(AppTheme.textSecondary)
             Spacer()
-            Text(value)
-                .font(.system(size: 12, weight: .medium))
-                .foregroundStyle(AppTheme.textTertiary)
+            StatusBadge(
+                text: isEnabled ? "Enabled" : "Disabled",
+                color: isEnabled ? AppTheme.success : AppTheme.danger
+            )
         }
+    }
+    
+    private func scoreColor(_ score: Int) -> Color {
+        if score >= 80 { return AppTheme.success }
+        if score >= 50 { return AppTheme.warning }
+        return AppTheme.danger
     }
 }

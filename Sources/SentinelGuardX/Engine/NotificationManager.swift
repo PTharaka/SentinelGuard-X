@@ -46,8 +46,15 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
             actions: [viewAction],
             intentIdentifiers: []
         )
+        
+        let scanUSBAction = UNNotificationAction(identifier: "SCAN_USB", title: "Scan Drive", options: .foreground)
+        let usbCategory = UNNotificationCategory(
+            identifier: "USB_MOUNT",
+            actions: [scanUSBAction, dismissAction],
+            intentIdentifiers: []
+        )
 
-        UNUserNotificationCenter.current().setNotificationCategories([threatCategory, scanCategory])
+        UNUserNotificationCenter.current().setNotificationCategories([threatCategory, scanCategory, usbCategory])
     }
 
     // MARK: - Send Notifications (all guarded)
@@ -104,5 +111,11 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
     // MARK: - UNUserNotificationCenterDelegate
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
         return [.banner, .sound]
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
+        if response.actionIdentifier == "SCAN_USB" {
+            NotificationCenter.default.post(name: NSNotification.Name("TriggerExternalScan"), object: nil)
+        }
     }
 }

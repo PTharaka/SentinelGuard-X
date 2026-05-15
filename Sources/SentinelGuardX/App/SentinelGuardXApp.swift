@@ -43,6 +43,9 @@ struct SentinelGuardXApp: App {
 
         // Start scan scheduler
         appState.scanScheduler.start()
+
+        // Start USB Monitor
+        appState.usbMonitor.startMonitoring()
     }
 }
 
@@ -78,6 +81,10 @@ struct ContentView: View {
             }
         }
         .navigationSplitViewStyle(.prominentDetail)
+        .onReceive(NotificationCenter.default.publisher(for: NSNotification.Name("TriggerExternalScan"))) { _ in
+            appState.selectedSection = .scanner
+            appState.scannerEngine.startScan(type: .external)
+        }
     }
 }
 
@@ -135,6 +142,19 @@ struct MenuBarView: View {
                     .font(.caption)
             }
             .padding(.vertical, 4)
+
+            Divider()
+
+            Button {
+                if let url = ReportGenerator.generateHTMLReport(appState: appState) {
+                    NSWorkspace.shared.open(url)
+                }
+            } label: {
+                HStack {
+                    Image(systemName: "doc.text.fill")
+                    Text("Export Security Report")
+                }
+            }
 
             Divider()
 

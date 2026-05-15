@@ -175,6 +175,22 @@ struct SettingsView: View {
                     }
                 }
 
+                // Security Audit
+                GlassmorphicCard {
+                    VStack(alignment: .leading, spacing: 16) {
+                        sectionTitle("Security Audit Report", icon: "doc.text.fill")
+                        Text("Generate a comprehensive HTML report of your system's current security posture, encryption status, and recent threats.")
+                            .font(.system(size: 13))
+                            .foregroundStyle(AppTheme.textSecondary)
+                        
+                        GlowButton(title: "Export HTML Report", icon: "square.and.arrow.up", color: AppTheme.cyan) {
+                            if let url = ReportGenerator.generateHTMLReport(appState: appState) {
+                                NSWorkspace.shared.open(url)
+                            }
+                        }
+                    }
+                }
+
                 // About
                 GlassmorphicCard {
                     VStack(alignment: .leading, spacing: 16) {

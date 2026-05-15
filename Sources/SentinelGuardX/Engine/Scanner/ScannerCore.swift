@@ -6,6 +6,7 @@ enum ScanType: String, CaseIterable, Identifiable {
     case full = "Full Scan"
     case custom = "Custom Scan"
     case external = "External Drive"
+    case appIntegrity = "App Integrity Scan"
     var id: String { rawValue }
 
     var icon: String {
@@ -14,6 +15,7 @@ enum ScanType: String, CaseIterable, Identifiable {
         case .full: return "shield.checkered"
         case .custom: return "folder.fill"
         case .external: return "externaldrive.fill"
+        case .appIntegrity: return "lock.apple.badge.checkmark"
         }
     }
 
@@ -23,6 +25,7 @@ enum ScanType: String, CaseIterable, Identifiable {
         case .full: return "Deep scan of all user-accessible files on the system"
         case .custom: return "Scan a specific folder of your choice"
         case .external: return "Scan connected external drives"
+        case .appIntegrity: return "Verifies Apple code signatures for all installed applications"
         }
     }
 }
@@ -75,32 +78,54 @@ final class ScannerCore {
                 let fileName = file.lastPathComponent
                 await MainActor.run { self.currentFile = fileName }
 
-                // Hash-based scan
-                if let hash = HashEngine.sha256(of: file) {
-                    let threat = ThreatSignatures.check(hash: hash, filePath: file.path)
-                    let size = (try? file.resourceValues(forKeys: [.fileSizeKey]).fileSize).map { UInt64($0) } ?? 0
-                    var finalThreat = threat
-
-                    // Behavioral scan if no hash match
-                    if finalThreat == nil {
-                        if let match = BehavioralRules.scan(fileURL: file) {
-                            finalThreat = ThreatInfo(
-                                name: match.ruleName,
-                                category: "Behavioral",
-                                severity: match.severity,
-                                description: match.description,
+                // If this is an App Integrity Scan and the file is an .app bundle
+                if type == .appIntegrity {
+                    if file.pathExtension == "app" {
+                        let status = await AppIntegrityChecker.check(appURL: file)
+                        if status != .valid {
+                            let threat = ThreatInfo(
+                                name: status.description,
+                                category: "Integrity",
+                                severity: status.severity,
+                                description: "Code signature validation failed",
                                 filePath: file.path,
-                                fileHash: hash
+                                fileHash: ""
                             )
+                            let result = ScanResult(fileURL: file, threat: threat, hash: "", fileSize: 0)
+                            await MainActor.run {
+                                self.scanResults.append(result)
+                                self.threatsFound.append(threat)
+                            }
                         }
                     }
+                } else {
+                    // Hash-based scan
+                    if let hash = HashEngine.sha256(of: file) {
+                        let threat = ThreatSignatures.check(hash: hash, filePath: file.path)
+                        let size = (try? file.resourceValues(forKeys: [.fileSizeKey]).fileSize).map { UInt64($0) } ?? 0
+                        var finalThreat = threat
 
-                    let capturedThreat = finalThreat
-                    let result = ScanResult(fileURL: file, threat: capturedThreat, hash: hash, fileSize: size)
-                    await MainActor.run {
-                        self.scanResults.append(result)
-                        if let t = capturedThreat {
-                            self.threatsFound.append(t)
+                        // Behavioral scan if no hash match
+                        if finalThreat == nil {
+                            if let match = BehavioralRules.scan(fileURL: file) {
+                                finalThreat = ThreatInfo(
+                                    name: match.ruleName,
+                                    category: "Behavioral",
+                                    severity: match.severity,
+                                    description: match.description,
+                                    filePath: file.path,
+                                    fileHash: hash
+                                )
+                            }
+                        }
+
+                        let capturedThreat = finalThreat
+                        let result = ScanResult(fileURL: file, threat: capturedThreat, hash: hash, fileSize: size)
+                        await MainActor.run {
+                            self.scanResults.append(result)
+                            if let t = capturedThreat {
+                                self.threatsFound.append(t)
+                            }
                         }
                     }
                 }
@@ -174,10 +199,18 @@ final class ScannerCore {
             return [home.appendingPathComponent("Downloads")]
         case .external:
             return [URL(fileURLWithPath: "/Volumes")]
+        case .appIntegrity:
+            return [
+                URL(fileURLWithPath: "/Applications"),
+                home.appendingPathComponent("Applications")
+            ]
         }
     }
 
     private func collectFilesAsync(in directories: [URL]) async -> [URL] {
+        if scanType == .appIntegrity {
+            return FileUtils.collectFiles(in: directories, extensions: ["app"])
+        }
         return FileUtils.collectFiles(in: directories)
     }
 }
