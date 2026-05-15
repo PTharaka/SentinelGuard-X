@@ -1,0 +1,285 @@
+{
+  "": {
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/master.swiftdeps"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/App/AppState.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppState.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppState.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppState.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppState.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/App/SentinelGuardXApp.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SentinelGuardXApp.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SentinelGuardXApp.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SentinelGuardXApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SentinelGuardXApp.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SentinelGuardXApp.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/ActivityTimeline.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ActivityTimeline.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ActivityTimeline.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ActivityTimeline~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ActivityTimeline.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ActivityTimeline.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Cleaner/CleanerCore.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerCore.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerCore.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerCore.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerCore.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Monitor/FileMonitor.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileMonitor.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileMonitor.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileMonitor.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileMonitor.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Monitor/NetworkMonitorEngine.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorEngine.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorEngine.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorEngine.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorEngine.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Monitor/PrivacyMonitor.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitor.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitor.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitor.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitor.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Monitor/SystemMonitor.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SystemMonitor.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SystemMonitor.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SystemMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SystemMonitor.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SystemMonitor.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Monitor/USBMonitor.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/USBMonitor.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/USBMonitor.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/USBMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/USBMonitor.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/USBMonitor.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/NotificationManager.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NotificationManager.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NotificationManager.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NotificationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NotificationManager.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NotificationManager.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Quarantine/QuarantineCore.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineCore.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineCore.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineCore.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineCore.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/ReportGenerator.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ReportGenerator.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ReportGenerator.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ReportGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ReportGenerator.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ReportGenerator.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/AppIntegrityChecker.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityChecker.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityChecker.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityChecker~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityChecker.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityChecker.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/BehavioralRules.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BehavioralRules.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BehavioralRules.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BehavioralRules~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BehavioralRules.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BehavioralRules.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/BrowserExtensionScanner.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionScanner.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionScanner.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionScanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionScanner.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionScanner.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/HashEngine.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/HashEngine.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/HashEngine.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/HashEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/HashEngine.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/HashEngine.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/ScanHistory.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistory.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistory.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistory~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistory.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistory.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/ScanScheduler.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanScheduler.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanScheduler.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanScheduler~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanScheduler.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanScheduler.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/ScannerCore.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerCore.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerCore.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerCore.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerCore.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Scanner/YaraRuleEngine.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/YaraRuleEngine.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/YaraRuleEngine.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/YaraRuleEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/YaraRuleEngine.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/YaraRuleEngine.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/SignatureUpdater.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SignatureUpdater.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SignatureUpdater.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SignatureUpdater~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SignatureUpdater.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SignatureUpdater.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Engine/Startup/StartupAnalyzer.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupAnalyzer.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupAnalyzer.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupAnalyzer~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupAnalyzer.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupAnalyzer.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Models/Models.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Models.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Models.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Models.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Models.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Theme/Animations.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Animations.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Animations.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Animations~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Animations.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Animations.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Theme/AppTheme.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppTheme.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppTheme.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppTheme.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppTheme.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Utilities/FileUtils.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileUtils.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileUtils.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileUtils.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FileUtils.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Utilities/FormatUtils.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FormatUtils.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FormatUtils.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FormatUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FormatUtils.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/FormatUtils.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Cleaner/CleanerView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/CleanerView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Components/Components.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Components.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Components.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Components~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Components.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/Components.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Dashboard/DashboardView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/DashboardView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/DashboardView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/DashboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/DashboardView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/DashboardView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Network/NetworkMonitorView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/NetworkMonitorView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Privacy/BrowserExtensionsView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionsView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionsView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionsView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/BrowserExtensionsView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Privacy/PrivacyMonitorView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitorView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitorView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitorView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/PrivacyMonitorView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Quarantine/QuarantineView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/QuarantineView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Scanner/AppIntegrityView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/AppIntegrityView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Scanner/ScanHistoryView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistoryView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistoryView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistoryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistoryView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScanHistoryView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Scanner/ScannerView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/ScannerView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Settings/SettingsView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SettingsView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SettingsView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Sidebar/SidebarView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SidebarView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SidebarView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SidebarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SidebarView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/SidebarView.dia"
+  },
+  "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/Sources/SentinelGuardX/Views/Startup/StartupOptimizerView.swift": {
+    "dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupOptimizerView.d",
+    "object": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupOptimizerView.swift.o",
+    "swiftmodule": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupOptimizerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupOptimizerView.swiftdeps",
+    "diagnostics": "/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX.build/StartupOptimizerView.dia"
+  }
+}

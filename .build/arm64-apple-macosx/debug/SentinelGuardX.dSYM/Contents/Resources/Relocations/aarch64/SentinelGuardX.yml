@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/pasindutharaka/.gemini/antigravity/scratch/SentinelGuardX/.build/arm64-apple-macosx/debug/SentinelGuardX'
+relocations:     []
+...
